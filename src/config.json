@@ -1,9 +1,9 @@
 {
 	"platform_version": "v1.2",
-	"name": "pullreqnav",
+	"name": "ghes",
 	"author": "scott@rsbrown.net",
 	"version": "0.3",
-	"description": "Github Pull Request Navigator",
+	"description": "Github Enhancement Suite",
 	"permissions": ["tabs"],
 	"background_files": ["js/background.js"],
 	"browser_action": {
@@ -14,7 +14,7 @@
 		{
 			"patterns": ["http://github.com/*/pull/*", "https://github.com/*/pull/*"],
 			"styles": [],
-			"scripts": ["js/jquery.min.js", "js/every-page.js"],
+			"scripts": ["js/zepto.min.js", "js/every-page.js"],
 			"run_at": "start",
 			"all_frames": false
 		}
