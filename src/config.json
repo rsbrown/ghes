@@ -12,7 +12,7 @@
 	},
 	"activations": [
 		{
-			"patterns": ["http://github.com/*", "https://github.com/*"],
+			"patterns": ["http://github.com/*/pull/*", "https://github.com/*/pull/*"],
 			"styles": [],
 			"scripts": ["js/jquery.min.js", "js/every-page.js"],
 			"run_at": "start",
