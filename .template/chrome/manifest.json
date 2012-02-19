@@ -1,0 +1,18 @@
+{
+	"name": "pullreqnav",
+	"version": "0.3",
+	"description": "Github Pull Request Navigator (built on Forge)",
+	"permissions": ["tabs", "http://github.com/*", "https://github.com/*"],
+	"background_page": "forge.html",
+	"content_scripts": [
+		{
+			"matches": ["http://github.com/*", "https://github.com/*"]
+			, "js": ["forge/all.js", "src/js/jquery.min.js", "src/js/every-page.js"]
+			, "css": []
+			, "run_at": "document_start"
+			, "all_frames": false
+
+		}
+	],
+	"browser_action": {"default_icon": "src/img/dobbs.jpg", "default_popup": "src/index.html"}
+}

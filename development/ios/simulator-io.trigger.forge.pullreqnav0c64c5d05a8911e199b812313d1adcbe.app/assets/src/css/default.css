@@ -1,0 +1,41 @@
+body {
+	width: 160px;
+	height: 80px;
+	font-family: museo, Arial, Helvetica, sans-serif;
+	color:white;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smooth:auto;
+	font-size: 16px;
+	background-color: black;
+	margin: 0px;
+}
+
+.description {
+	padding: 0px 10px 0px 10px;
+}
+
+h1 {
+	padding: 0px 10px 0px 10px;
+}
+
+h2 {
+	display: block;
+	min-height: 44px;
+	font:500 24px/44px tahoma, arial, helvetica;
+	background-color: #ccc;
+	text-shadow: 0 0 0 #fff;
+	letter-spacing:1px;
+	border-bottom: 1px solid;
+	padding: 0px 10px 0px 10px;
+	background:#008299 url(../img/bg-cross-hatching.png) repeat top left;
+	border-top:1px solid #016375;
+	border-bottom:1px solid #016375;
+	color:#fff;
+	font-weight:normal;
+}
+
+a {
+	color: white;
+}
