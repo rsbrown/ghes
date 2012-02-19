@@ -4,7 +4,7 @@
 	"author": "scott@rsbrown.net",
 	"version": "0.3",
 	"description": "Github Enhancement Suite",
-	"permissions": ["tabs"],
+	"permissions": ["tabs", "https://api.github.com/*"],
 	"background_files": ["js/background.js"],
 	"browser_action": {
 		"default_popup": "index.html",
@@ -14,7 +14,7 @@
 		{
 			"patterns": ["http://github.com/*/pull/*", "https://github.com/*/pull/*"],
 			"styles": [],
-			"scripts": ["js/zepto.min.js", "js/every-page.js"],
+			"scripts": ["js/jquery.min.js", "js/default.js"],
 			"run_at": "start",
 			"all_frames": false
 		}
