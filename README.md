@@ -13,7 +13,7 @@ currently, it only provides one 'enhancement' to GitHub: if you're on a pull req
 Installation
 ------------
 
-1) Install [Forge](https://trigger.io/forge)
-2) cd to your forge directory and `git clone git@github.com:rsbrown/ghes.git`
-3) `cd ghes` and `forge build`
-4) Load the plugin into chrome [by following the instruction here](http://docs.trigger.io/en/v1.2/chrome/getting_started.html#chrome-getting-started-load-extension)
+1. Install [Forge](https://trigger.io/forge)
+1. cd to your forge directory and `git clone git@github.com:rsbrown/ghes.git`
+1. `cd ghes` and `forge build`
+1. Load the plugin into chrome [by following the instruction here](http://docs.trigger.io/en/v1.2/chrome/getting_started.html#chrome-getting-started-load-extension)
